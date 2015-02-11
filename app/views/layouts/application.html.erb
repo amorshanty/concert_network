@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ConcertNetwork</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+
+</head>
+
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				
+		
+
+				<div class="col-sm-12 titulo">
+					<h1 class= "titulo_2">
+					Music Concert Network	
+					</h1>			
+				</div>
+
+			
+
+			</div>
+		</div>
+</header>
+
+<div class="container">
+	
+<%= yield %>
+
+</div>
+
+<footer class="footer">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-sm-12">
+					<h6>
+						footer
+					</h6>
+				</div>
+
+
+			</div>
+		</div>
+</footer>
+
+</body>
+</html>

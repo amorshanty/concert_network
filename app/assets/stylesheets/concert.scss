@@ -1,0 +1,68 @@
+// Place all the styles related to the concert controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.titulo {
+  color: #404040;
+  font-size: 14px;
+  text-align: center;
+
+}
+
+.titulo_2 {
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+header {
+	background-color: #F1F1F1;
+	height: 100px;
+	width: 100%;
+}
+
+footer {
+	background-color: #F1F1F1;
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+
+}
+
+.center-row1 {
+	padding: 35px 0 35px;
+	height: 130px;
+}
+
+.boton_concerts {
+	width: 200px;
+	height: 50px;
+	padding: 12px 12px;
+}
+
+.boton_cancel, .boton_save {
+	width: 130px;
+	height: 33px;
+}
+
+.boton_volver, .boton_agregar {
+	width: 100px;
+	height: 33px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

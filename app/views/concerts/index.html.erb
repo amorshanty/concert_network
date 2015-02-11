@@ -1,0 +1,40 @@
+<div class="container">
+	<div class="row center-row1">
+		
+		<div class="col-sm-2">
+		</div>
+		
+		<div class="col-sm-8">		
+			<table class="table table-striped">
+				
+					<tr>
+					<td> <h5> Band </h5></td>
+					<td> <h5>Description </h5></td>
+					</tr>
+				
+				<% @concerts.each do |concert| %>
+					<tr>
+						<td>
+							<%= link_to(concert.band, concert_path(concert.id)) %>
+						</td>
+						<td>
+							<% if concert.description.present? %>
+							 <%= concert.description %>
+							<% end %>
+						</td>
+					</tr>
+
+				<% end %>
+			</table>
+
+			<%= link_to("Volver", '/', class: "btn btn-primary boton_volver") %>
+			<%= link_to("Agregar", new_concert_path, class: "btn btn-success boton_agregar") %>
+		</div>
+
+		<div class="col-sm-2">
+		</div>
+
+	</div>
+</div>
+
+
